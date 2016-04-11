@@ -2,7 +2,7 @@
 
 This project is a fork of the excellent [Primer](http://primercss.io) project by GitHub.
 
-The aim of this is to provide a componentised approach to how we create interfaces in a consistent and efficient manner. This work is Open Source though it's more for us if we're honest in that it implements the Cancer Research UK components and we'd only accept internal pull requests.
+The aim of this is to provide a componentised approach to how we create interfaces in a consistent and efficient manner. This work is Open Source, we care about the wider community and are grateful to be part of it. We both benefit from Open Source and wish to give back by sharing the sum of our research and work in crafting carefully thought out solutions (UX, Design and Implementation).
 
 This repository is the home of both our base front-end code and the place where it is documented.
 
@@ -27,6 +27,7 @@ When working on a new proposition/project, this project should be forked which i
 
 As this repository is both code and documentation when working on a new pattern the pull request to include it should have both [Browser &amp; Device tested](http://crukorg.github.io/cruk-pattern-library/browser-support) code along with documentation for the new component.
 
+You can view the pattern library itself at [http://crukorg.github.io/cruk-pattern-library/](http://crukorg.github.io/cruk-pattern-library/).
 
 ## Documentation
 
