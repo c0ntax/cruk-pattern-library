@@ -7,22 +7,47 @@ body.cr-pattern-library {
  * Swatch component.
  */
 .cr-pattern-library-swatch {
-  display: inline-block;
-  width: 100px;
-  height: 100px;
-  margin-bottom: 10px;
-  border-radius: 50px;
-  color: white;
+  .cr-pattern-library-swatch__colour {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    line-height: 100px;
+    color: white;
+  }
 
-  &.cr-pattern-library-swatch--primary {
+  code {
+    display: inline-block;
+    clear: both;
+    margin-bottom: 2px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &.cr-pattern-library-swatch--primary .cr-pattern-library-swatch__colour {
     background-color: $brand-primary;
   }
 
-  &.cr-pattern-library-swatch--secondary {
+  &.cr-pattern-library-swatch--secondary .cr-pattern-library-swatch__colour {
     background-color: $brand-secondary;
   }
 
-  &.cr-pattern-library-swatch--tertiary {
+  &.cr-pattern-library-swatch--tertiary .cr-pattern-library-swatch__colour {
     background-color: $brand-tertiary;
+  }
+
+  &.cr-pattern-library-swatch--grey-light .cr-pattern-library-swatch__colour {
+    background-color: $brand-grey-light;
+  }
+
+  &.cr-pattern-library-swatch--grey-medium .cr-pattern-library-swatch__colour {
+    background-color: $brand-grey-medium;
+  }
+
+  &.cr-pattern-library-swatch--grey-dark .cr-pattern-library-swatch__colour {
+    background-color: $brand-grey-dark;
   }
 }
