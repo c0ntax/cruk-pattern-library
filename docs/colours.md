@@ -33,7 +33,7 @@ The colours we use form a key part of our branding and identity.
   </div>
 </div>
 
-### Grayscale
+### Greyscale
 
 <div class="row text-center">
   <div class="col-xs-6 col-sm-3 cr-pattern-library-swatch cr-pattern-library-swatch--grey-light">
