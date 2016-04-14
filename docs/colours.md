@@ -5,6 +5,8 @@ title: Colours
 
 The colours we use form a key part of our branding and identity.
 
+Whilst we match the Bootstrap variable names `primary`, `secondary` and our own (`tertiary`) this is more of a structural naming point. These variable names should not convey that there's a brand colour hierarchy as that would not be true. Each colour carries equal importance.
+
 ### Brand Colours
 
 <div class="row text-center">
