@@ -1,8 +1,9 @@
 .bundle/config
-bin/
-vendor/
-.sass-cache/
-vendor/
+/bin
+/.sass-cache
+/vendor
 .ruby-version
 _site/
-node_modules/
+/node_modules
+.idea
+.vagrant
